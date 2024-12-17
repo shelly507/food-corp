@@ -1,0 +1,18 @@
+body{
+    background-color: #113936;
+   
+}
+.navbar-nav .nav-link {
+    color: #fff;
+    font-weight: 600;
+}
+.banner{
+    background-image: url(/images/banner.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.banner h1{
+    background-color: #113936;
+    color: #fff
+}
