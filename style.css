@@ -7,7 +7,9 @@ body {
     color: #fff;
     font-weight: 600;
 }
-
+.navbar-nav .nav-link:hover{
+    color: #F26727;
+}
 .banner {
     background-image: url(/images/banner.webp);
     background-size: cover;
@@ -29,6 +31,10 @@ body {
     font-size: 1.5rem;
     text-decoration: none;
 }
+.links i {
+    color: #fff;
+    font-size: 1.5rem;
+}
 
 .links a:hover {
     background-color: #445755;
@@ -38,4 +44,15 @@ body {
     background-image: url(/images/bg\ for\ about.png);
     background-size: cover;
     background-size: center;
+}
+.news{
+    background-color: #132f2c;
+}
+.news h1{
+
+}
+.news span{
+    font-size: 2.5rem;
+    color: #F26727;
+    font-weight: 700;
 }
