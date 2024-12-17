@@ -1,18 +1,41 @@
-body{
+body {
     background-color: #113936;
-   
+
 }
+
 .navbar-nav .nav-link {
     color: #fff;
     font-weight: 600;
 }
-.banner{
+
+.banner {
     background-image: url(/images/banner.webp);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 80vh;
+    width: 100vw;
+
 }
-.banner h1{
+
+.banner h1 {
     background-color: #113936;
-    color: #fff
+    color: #ffff;
+    text-align: center;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.links a {
+    color: #b3a7a7;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.links a:hover {
+    background-color: #445755;
+    color: black;
+}
+.about{
+    background-image: url(/images/bg\ for\ about.png);
+    background-size: cover;
+    background-size: center;
 }
