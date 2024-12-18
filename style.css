@@ -7,9 +7,11 @@ body {
     color: #fff;
     font-weight: 600;
 }
-.navbar-nav .nav-link:hover{
+
+.navbar-nav .nav-link:hover {
     color: #F26727;
 }
+
 .banner {
     background-image: url(/images/banner.webp);
     background-size: cover;
@@ -31,6 +33,7 @@ body {
     font-size: 1.5rem;
     text-decoration: none;
 }
+
 .links i {
     color: #fff;
     font-size: 1.5rem;
@@ -40,19 +43,117 @@ body {
     background-color: #445755;
     color: black;
 }
-.about{
+
+.about {
     background-image: url(/images/bg\ for\ about.png);
     background-size: cover;
     background-size: center;
 }
-.news{
+
+.news {
     background-color: #132f2c;
 }
-.news h1{
 
-}
-.news span{
+.news span {
     font-size: 2.5rem;
     color: #F26727;
     font-weight: 700;
+}
+
+.news .title {
+    border-left: 5px solid #F26727;
+}
+
+.awards .one, .awards .two {
+    max-height: 500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-right: 10px;
+    border-right: 3px solid #F26727;
+}
+
+
+.awards .btn-lg {
+    font-size: 18px;
+    background-color: #113936;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.awards {
+    background-color: #132f2c;
+    padding: 30px;
+}
+
+.awards .active {
+    background-color: #F26727;
+    color: #fff;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.awards h4 {
+    color: #cbcbcb;
+    font-size: 1rem;
+}
+
+.awards .btn-xl {
+    background-color: transparent;
+    color: #F26727;
+    font-weight: 700;
+    border: 2px solid #F26727;
+    border-radius: 10px;
+}
+
+.awards hr {
+    color: wheat;
+}
+
+.Social-media {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.Social-media a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+
+.Social-media a.active {
+    color: #fff;
+    background-color: #F26727;
+    font-weight: 600;
+}
+.footer h5{
+    color: #fff;
+    text-align: center;
+}
+.footer  li {
+    list-style-type: none;
+}
+.footer li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: #fff;
+  
+}
+@media (max-width: 768px) {
+    .Social-media {
+        flex-direction: column;
+        gap: 20px;
+    }
 }
