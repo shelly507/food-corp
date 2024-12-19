@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>food corp</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- JavaScript links -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -22,15 +22,15 @@
     <div class="container-fluid">
         <div class="row heading">
             <div class="col-6 col-md-4">
-                <img src="/images/logo.svg" alt="" class="img-fluid">
+                <img src="./images/logo.svg" alt="" class="img-fluid">
             </div>
             <div class="col-6 col-md-8 ">
                 <div class="d-flex justify-content-center">
-                    <img src="/images/beti-bachao.png" alt="" class="me-4" style="height: 30px;">
-                    <img src="/images/nationalEmblemWhite.png" alt="" class="me-4" style="height: 30px;">
+                    <img src="./images/beti-bachao.png" alt="" class="me-4" style="height: 30px;">
+                    <img src="./images/nationalEmblemWhite.png" alt="" class="me-4" style="height: 30px;">
                     <div class="search-container">
                         <form action="">
-                            <input type="text" placeholder="Search.." name="search">
+                            <input type="text" placeholder="Search in FCI" name="search">
                             <button type="submit"><i class='bx bx-search-alt-2 bg-light'></i></button>
                         </form>
                     </div>
@@ -262,39 +262,70 @@
         </div>
         <div class="row Social-media">
             <div class="col-md-12">
-                <a href="#" class="active">Social Media</a>
-                <a href="#">Photo Gallery</a>
-                <a href="#">Video Gallery</a>
+                <a href="#content1" class="active" data-bs-toggle="tab">Social Media</a>
+                <a href="#content2" data-bs-toggle="tab">Photo Gallery</a>
+                <a href="#content3" data-bs-toggle="tab">Video Gallery</a>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-8">
-
+            <div class="col-md-12">
+                <div class="tab-content mt-3" id="myTabContent">
+                    <div class="tab-pane fade show active" id="content1" role="tabpanel" aria-labelledby="tab1">
+                        <div class="row d-flex gap-3">
+                            <div class="col">
+                                <iframe src="https://x.com/fci_india" class="custom-iframe" width="100%"
+                                    height="400px"></iframe>
+                            </div>
+                            <div class="col">
+                                <iframe src="https://www.google.com" width="100%" height="400px"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="content2" role="tabpanel" aria-labelledby="tab2">
+                        <div class="row d-flex gap-3">
+                            <div class="col">
+                                <iframe src="https://www.google.com" width="100%" height="400px"></iframe>
+                            </div>
+                            <div class="col">
+                                <iframe src="https://www.google.com" width="100%" height="400px"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="content3" role="tabpanel" aria-labelledby="tab3">
+                        <div class="row d-flex gap-3">
+                            <div class="col">
+                                <iframe src="https://www.youtube.com" width="100%" height="400px"></iframe>
+                            </div>
+                            <div class="col">
+                                <iframe src="https://www.youtube.com" width="100%" height="400px"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4"></div>
         </div>
         <div class="row pt-3">
             <div class="col-md-2">
-                <img src="/images/pic1.png" alt="" class="img-fluid equal-size">
+                <img src="./images/pic1.png" alt="logos" class="img-fluid equal-size">
             </div>
             <div class="col-md-2">
-                <img src="/images/pic2.png" alt="" class="img-fluid equal-size">
+                <img src="./images/pic2.png" alt="logos" class="img-fluid equal-size">
             </div>
             <div class="col-md-2">
-                <img src="/images/pic3.png" alt="" class="img-fluid equal-size">
+                <img src="./images/pic3.png" alt="logos" class="img-fluid equal-size">
             </div>
             <div class="col-md-2">
-                <img src="/images/pic4.png" alt="" class="img-fluid equal-size">
+                <img src="./images/pic4.png" alt="logos" class="img-fluid equal-size">
             </div>
             <div class="col-md-2">
-                <img src="/images/pic5.png" alt="" class="img-fluid equal-size">
+                <img src="./images/pic5.png" alt="logos" class="img-fluid equal-size">
             </div>
             <div class="col-md-2">
-                <img src="/images/pic6.png" alt="" class="img-fluid equal-size">
+                <img src="./images/pic6.png" alt="logos" class="img-fluid equal-size">
             </div>
         </div>
         <div class="row pt-5 footer">
-            <div class="col-md-4">
+            <div class="col-md-4 col-12 text-center">
                 <h5 class="text-center links-heading">Important Links</h5>
                 <div class="row pt-4">
                     <div class="col-md-6">
@@ -302,7 +333,7 @@
                             <li><a href="#">Grievance Redressal</a></li>
                             <li><a href="#">Feedback</a></li>
                             <li><a href="#">Blogs</a></li>
-                            <li><a href="#">Depot Efficency Dashbord</a></li>
+                            <li><a href="#">Depot Efficiency Dashboard</a></li>
                         </ul>
                     </div>
                     <div class="col-md-6">
@@ -314,61 +345,36 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-12 text-center">
                 <h5>Help and Support</h5>
                 <div class="row pt-4">
                     <div class="col-md-6">
                         <ul>
-                            <li>
-                                <a href="#">Terms and Condition</a>
-                            </li>
-                            <li>
-                                <a href="#">Hyperlinking Policy</a>
-                            </li>
-                            <li>
-                                <a href="#">Copyright Policy</a>
-                            </li>
-                            <li>
-                                <a href="#">Site Map</a>
-                            </li>
-                            <li>
-                                <a href="#">Disclaimer</a>
-                            </li>
+                            <li><a href="#">Terms and Condition</a></li>
+                            <li><a href="#">Hyperlinking Policy</a></li>
+                            <li><a href="#">Copyright Policy</a></li>
+                            <li><a href="#">Site Map</a></li>
+                            <li><a href="#">Disclaimer</a></li>
                         </ul>
                     </div>
                     <div class="col-md-6">
                         <ul>
-                            <li>
-                                <a href="#">Privacy Policy</a>
-                            </li>
-                            <li>
-                                <a href="#">Accesbility Statement</a>
-                            </li>
-                            <li>
-                                <a href="#">Help</a>
-                            </li>
-                            <li>
-                                <a href="#">Website policies</a>
-                            </li>
-                            <li>
-                                <a href="#">Contact Us</a>
-                            </li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Accessibility Statement</a></li>
+                            <li><a href="#">Help</a></li>
+                            <li><a href="#">Website policies</a></li>
+                            <li><a href="#">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 text-white">
+            <div class="col-md-4 col-12 text-white text-center">
                 <h5>Address</h5>
-                <div class="row pt-4">
+                <div class="row pt-4 text-center">
                     <div class="col-md-12">
                         <p>Food Corporation Of India, 16-20, Barakhamba Lane, New-Delhi-110001, India.</p>
-
-                        Helpdesk
-
-                        011-43527462-63
-                        Feedback
-
-                        webmaster.fci@gov.in</p>
+                        <p>Helpdesk: 011-43527462-63</p>
+                        <p>Feedback: webmaster.fci@gov.in</p>
                     </div>
                 </div>
             </div>

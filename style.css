@@ -2,6 +2,17 @@ body {
     background-color: #113936;
 
 }
+.search-container input{
+    background-color: transparent;
+    color: #fff;
+    font-weight: 700;
+}
+
+.search-container button i {
+    background-color: transparent;
+    color: #F26727;
+    font-weight: 700;
+}
 
 .navbar-nav .nav-link {
     color: #fff;
@@ -13,7 +24,7 @@ body {
 }
 
 .banner {
-    background-image: url(/images/banner.webp);
+    background-image: url(./images/banner.webp);
     background-size: cover;
     background-position: center;
     height: 80vh;
@@ -138,19 +149,31 @@ body {
     background-color: #F26727;
     font-weight: 600;
 }
-.footer h5{
+.footer {
+    background-color: #113936;
+    padding: 30px 0;
+}
+
+.footer h5 {
     color: #fff;
     text-align: center;
 }
-.footer  li {
+
+.footer li {
     list-style-type: none;
 }
-.footer li a{
-    list-style-type: none;
+
+.footer li a {
     text-decoration: none;
     color: #fff;
-  
+    transition: color 0.3s;
+    font-weight: 600;
 }
+
+.footer li a:hover {
+    color: #F26727;
+}
+
 @media (max-width: 768px) {
     .Social-media {
         flex-direction: column;
